@@ -10,12 +10,12 @@ public class Quiz {
         System.out.println(y+=10 - x++); //13, y+=는 y=y+5와 같다. 따라서 y+=10 ->15이고 x++은 계산 후 1증가이기 때문에 15-2 =13이다.
         System.out.println(x+=2); //5, 앞서 x++에서 1이 증가하였다 즉, 3+2=5
         System.out.println(!('A'<=c && c<='Z')); //
-        System.out.println('C' - c);
-        System.out.println(!('5' - '0');
-        System.out.println(c+1);
-        System.out.println(++c);
-        System.out.println(c++);
-        System.out.println(c);
+        System.out.println('C' - c); //2, 'C' = 67 이고 c='A'=65이기 때문에 67-65라서 2이다
+        System.out.println('5' - '0'); //5
+        System.out.println(c+1); //66, 65+1
+        System.out.println(++c); // B, 왜?
+        System.out.println(c++); // B, 왜?
+        System.out.println(c); // C, 왜?
 
 
         /* Application02
